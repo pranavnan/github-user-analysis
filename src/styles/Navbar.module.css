@@ -1,0 +1,69 @@
+.nav-wrapper {
+  padding: 1rem 1.5rem;
+  margin-bottom: 4rem;
+  background: var(--clr-white);
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+h4 {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.nav-wrapper img {
+  width: 35px !important;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+button {
+  background: transparent;
+  border: transparent;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  color: var(--clr-grey-5);
+  cursor: pointer;
+}
+.icon-text {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.btn-text-icon {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.login-button {
+  background-color: #e6e6ff;
+  color: #5d55fa;
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.login-button:hover {
+  background-color: #dfddfe;
+}
+.text-imp {
+  font-size: 1.6rem;
+}
+
+.action-logout {
+  display: flex;
+  flex-direction: row;
+  background-color: #e6e6ff;
+  color: #5d55fa;
+  padding: 0.4rem 0.2rem 0.4rem 0.2rem;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.action-logout span {
+  margin-left: 0.4rem;
+}
+.action-logout:hover {
+  background-color: #dfddfe;
+}
